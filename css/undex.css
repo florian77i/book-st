@@ -474,7 +474,7 @@ section{
 }
 
 .newsletter{
-    background:url(../image/letter-bg.jpg) no-repeat;
+    background:url(../image/leader-4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -488,10 +488,15 @@ section{
 }
 
 .newsletter form h3{
+    width: 40rem;
+   
     font-size: 2.2rem;
-    color:#fff;
-    padding-bottom: .7rem;
-    font-weight: normal;
+    /* background: var(--black); */
+    border-radius: 1rem;
+    color:#040d1a;
+   
+    padding-bottom: .3rem;
+    font-weight: bolder;
 }
 
 .newsletter form .box{
