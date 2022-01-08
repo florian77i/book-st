@@ -1,25 +1,3 @@
-function addTocart(item){
-  
-  var selectedItem = document.createElement('');
-  selectedItem.classList.add('cart');
-  selectedItem.setAttribute('');
-  var img = document.createElement('img')
-  img.setAttribute('src',itemchildren[0].currentSrc);
-  var title = document.createElement();
-  title.innerText-item.children[1].innerText;
-  var label= document.getElementById();
-  label.innerText-item.children[2].children[0].innerText;
-  var select=document.createElement();
-  select.innerText-item.children[2].children[1].innerText;
-  label.append(select);
-  var Cartitems = document.getElementById();
-  selectedItem.append(img);
-  Cartitems.append(selectedItem);
-
-
-
-}
-
 
 
 

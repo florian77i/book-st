@@ -226,6 +226,8 @@ section{
     z-index: 10000;
     height:100%;
     width:100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
 }
 
 .login-form-container.active{
@@ -381,62 +383,6 @@ section{
     font-size: 1.4rem;
     color:var(--light-color);
 }
-/* 
-.featured{
-    width: 100%;
-   
-    text-align: center;
-}
-.featured.h1{
-
-}
-
-.featured-slider {
-    width: 300px;
-  
-    display: block;
-    margin-left: 0rem;
-    padding: 46px;
-    
-    border:var(--black);
-}
-
-.featured .image{
-    padding:1rem;
-    background: linear-gradient(30deg, #040d1a 30%, #fff 30.1%);
-}
-
-
-.featured  .image img{
-    height: 25rem;
-    
-}
-
-
-.featured .content{
-    background:#eee;
-    padding:1.5rem;
-}
-
-.featured .content h3{
-    font-size: 2rem;
-    color:var(--black);
-}
-
-.featured .price{
-    font-size: 2.2rem;
-    color:var(--black);
-    padding-top: 1rem;
-}
-
-.featured  .content .price span{
-    font-size: 1.5rem;
-    color:var(--light-color);
-    text-decoration: line-through;
-} */
-
-/* 
- */
 
  .container{
      top: 0%;
@@ -446,16 +392,19 @@ section{
      position: relative;
      width: max-content;
      padding: 10rem;
+     border-radius: 2rem;
 
  }
  .card{
      border: 1px solid black;
-     background: rgba(25, 21, 33, 0.1);
+     background: rgba(140, 104, 211, 0.391);
+     box-shadow: var(--black);
      width: max-content;
      margin-top: 30rem ;
      text-align: left;
-     display: -ms-flexbox flex-column;
+     display: block;
      margin: 5px;
+     border-radius: 2rem;
 
  }
  .card img{
@@ -482,13 +431,14 @@ section{
  }
  
  .card button{
-     border: solid #e1701a;
-     background-color: #f7a440;
-     color: black;
+     
+   
+     color: white;
      margin-left: 5rem;
      padding: 10px;
 
  }
+
  
 
  
